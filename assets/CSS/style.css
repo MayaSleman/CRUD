@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    max-width: 1000px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form input{
+    display: block;
+    padding:10px;
+    margin: 30px auto;
+    border-radius: 10px;
+    border: 1px solid rgb(30, 131, 226);
+}
+.input{
+    width: 300px;
+}
+.btn{
+    width: 100px;
+    margin: 0 auto;
+    border: none;
+    padding:10px;
+    color: white;
+    background-color: rgb(30, 131, 226);
+}
+.done{
+    color: green;
+}
+.updateName{
+    display: none;
+}
+.btn1,.btn2,.btn3,.btn4{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 5px;
+    color: white;
+    cursor: pointer;
+}
+.updateName{
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn1{
+    background-color: rgb(233, 230, 57);
+}
+.btn2{
+    background-color: rgb(13, 148, 64);
+}
+.btn3{
+    background-color: rgb(30, 131, 226);
+}
+.btn4{
+    background-color: rgb(206, 17, 17);
+}
+@media (max-width : 400px) {
+    .container{
+        font-size: 16px;
+    }
+}
